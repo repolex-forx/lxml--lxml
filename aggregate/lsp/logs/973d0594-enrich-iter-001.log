@@ -1,0 +1,67 @@
+[2026-04-14T06:00:59Z] === ENRICH ITERATION 1 START | repo=lxml/lxml sha=973d0594 ===
+[2026-04-14T06:00:59Z] [iter=1] PHASE START: enrich repo=lxml/lxml sha=973d0594 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/973d0594-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/973d059449a66799f468b46f4b12c95e32cff5e9.nq.gz
+[2026-04-14T06:01:00Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-04-14T06:01:13Z] [iter=1] AST store loaded triples=1836474 load_secs=12 mem_mb=863 MB
+[2026-04-14T06:01:13Z] [iter=1] Step 2: Finding LSP targets mem_mb=863 MB
+[2026-04-14T06:01:19Z] [iter=1] LSP targets found call_sites=16887 imports=518 extends=176 implements=0 secs=5
+[2026-04-14T06:01:23Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=863 MB
+[2026-04-14T06:01:35Z] [iter=1] Position index built positions=127419 nodes_with_types=167370 secs=11 mem_mb=863 MB
+[2026-04-14T06:01:35Z] [iter=1] Step 3: Starting LSP resolution mem_mb=863 MB already_completed_types=[] already_completed_files=0
+[2026-04-14T06:01:35Z] [iter=1] Resolving target type target_type=call_site count=16887
+[2026-04-14T06:01:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.6 files_done=0 resolved=0 errors=0 current=src/lxml/tests/common_imports.py
+[2026-04-14T06:29:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=28.7 files_done=2 resolved=301 errors=2347 current=doc/mklatex.py
+[2026-04-14T06:30:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=29.5 files_done=3 resolved=354 errors=2415 current=src/lxml/tests/test_xpathevaluator.py
+[2026-04-14T06:34:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=33.2 files_done=4 resolved=411 errors=2726 current=src/lxml/tests/test_etree.py
+[2026-04-14T07:06:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=66.0 files_done=5 resolved=843 errors=5462 current=src/lxml/tests/test_xslt.py
+[2026-04-14T07:14:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=73.2 files_done=6 resolved=954 errors=6062 current=src/lxml/html/_html5builder.py
+[2026-04-14T07:28:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=87.4 files_done=8 resolved=1184 errors=7253 current=src/lxml/tests/test_xmlschema.py
+[2026-04-14T07:30:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=89.4 files_done=9 resolved=1191 errors=7420 current=doc/mkhtml.py
+[2026-04-14T07:31:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=90.7 files_done=10 resolved=1220 errors=7527 current=src/lxml/tests/test_sax.py
+[2026-04-14T07:33:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=92.9 files_done=11 resolved=1231 errors=7713 current=src/lxml/tests/test_incremental_xmlfile.py
+[2026-04-14T07:37:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=96.2 files_done=12 resolved=1275 errors=7997 current=src/lxml/tests/test_pyclasslookup.py
+[2026-04-14T07:38:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=97.8 files_done=13 resolved=1286 errors=8131 current=src/lxml/html/__init__.py
+[2026-04-14T07:41:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=100.9 files_done=14 resolved=1412 errors=8384 current=setupinfo.py
+[2026-04-14T07:43:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=102.3 files_done=15 resolved=1488 errors=8506 current=src/lxml/html/diff.py
+[2026-04-14T07:45:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=104.0 files_done=16 resolved=1538 errors=8649 current=src/lxml/tests/test_elementpath.py
+[2026-04-14T07:47:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=106.9 files_done=17 resolved=1559 errors=8888 current=src/lxml/tests/test_htmlparser.py
+[2026-04-14T07:51:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=110.8 files_done=18 resolved=1648 errors=9217 current=src/lxml/tests/test_io.py
+[2026-04-14T07:53:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=112.6 files_done=19 resolved=1717 errors=9369 current=src/lxml/tests/test_nsclasses.py
+[2026-04-14T07:55:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=114.0 files_done=20 resolved=1758 errors=9491 current=src/lxml/tests/test_threading.py
+[2026-04-14T07:56:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=116.0 files_done=21 resolved=1812 errors=9653 current=benchmark/run_benchmarks.py
+[2026-04-14T07:57:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=116.8 files_done=22 resolved=1873 errors=9720 current=src/lxml/__init__.py
+[2026-04-14T08:00:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=119.4 files_done=25 resolved=1979 errors=9936 current=src/lxml/html/tests/test_html5parser.py
+[2026-04-14T08:02:25Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=121.4 files_done=26 resolved=2007 errors=10110 current=update-error-constants.py
+[2026-04-14T08:03:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=122.1 files_done=27 resolved=2041 errors=10162 current=src/lxml/tests/test_external_document.py
+[2026-04-14T08:04:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=123.7 files_done=29 resolved=2095 errors=10297 current=src/lxml/tests/test_unicode.py
+[2026-04-14T08:05:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=124.5 files_done=30 resolved=2113 errors=10364 current=buildlibxml.py
+[2026-04-14T08:07:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=126.4 files_done=31 resolved=2242 errors=10524 current=benchmark/benchbase.py
+[2026-04-14T08:08:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=127.5 files_done=32 resolved=2344 errors=10617 current=src/lxml/tests/selftest2.py
+[2026-04-14T08:10:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=129.6 files_done=34 resolved=2400 errors=10795 current=src/lxml/tests/test_classlookup.py
+[2026-04-14T08:12:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=131.0 files_done=35 resolved=2424 errors=10914 current=test.py
+[2026-04-14T08:13:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=132.4 files_done=36 resolved=2498 errors=11032 current=src/lxml/doctestcompare.py
+[2026-04-14T08:15:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=134.2 files_done=37 resolved=2531 errors=11184 current=src/lxml/isoschematron/__init__.py
+[2026-04-14T08:17:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=136.6 files_done=39 resolved=2611 errors=11385 current=src/lxml/tests/test_relaxng.py
+[2026-04-14T08:18:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=137.9 files_done=40 resolved=2617 errors=11488 current=src/lxml/html/tests/test_feedparser_data.py
+[2026-04-14T08:19:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=138.4 files_done=42 resolved=2641 errors=11531 current=tools/xpathgrep.py
+[2026-04-14T08:20:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=139.1 files_done=43 resolved=2678 errors=11591 current=setup.py
+[2026-04-14T08:20:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=139.9 files_done=45 resolved=2731 errors=11660 current=tools/pypistats.py
+[2026-04-14T08:21:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=140.7 files_done=47 resolved=2762 errors=11730 current=src/lxml/ElementInclude.py
+[2026-04-14T08:22:33Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=141.6 files_done=49 resolved=2785 errors=11798 current=src/lxml/tests/test_annotations.py
+[2026-04-14T08:23:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=142.7 files_done=54 resolved=2840 errors=11945 current=src/lxml/html/tests/test_select.py
+[2026-04-14T08:25:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=144.1 files_done=56 resolved=2882 errors=12063 current=src/lxml/html/html5parser.py
+[2026-04-14T08:26:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=145.3 files_done=58 resolved=2943 errors=12161 current=src/lxml/html/defs.py
+[2026-04-14T08:26:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=146.0 files_done=61 resolved=2995 errors=12221 current=doc/rest2latex.py
+[2026-04-14T08:27:42Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=146.7 files_done=64 resolved=3040 errors=12279 current=src/lxml/tests/test_doctestcompare.py
+[2026-04-14T08:28:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=147.3 files_done=69 resolved=3066 errors=12329 current=src/lxml/tests/dummy_http_server.py
+[2026-04-14T08:28:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=147.8 files_done=74 resolved=3096 errors=12371 current=src/lxml/tests/test_css.py
+[2026-04-14T08:29:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=148.3 files_done=76 resolved=3106 errors=12417 current=benchmark/bench_objectify.py
+[2026-04-14T08:29:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=148.9 files_done=89 resolved=3148 errors=12461 current=src/lxml/html/clean.py
+[2026-04-14T08:31:02Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=150.0 files_done=93 resolved=3194 errors=12554 current=src/lxml/includes/etree_defs.h
+[2026-04-14T08:31:11Z] [iter=1] Target type resolved target_type=call_site resolved=3195 errors=12565 secs=8976 mem_mb=863 MB
+[2026-04-14T08:31:11Z] [iter=1] Resolving target type target_type=import_statement count=518
+[2026-04-14T08:31:19Z] [iter=1] Target type resolved target_type=import_statement resolved=469 errors=8 secs=8 mem_mb=863 MB
+[2026-04-14T08:31:19Z] [iter=1] Resolving target type target_type=extends_clause count=176
+[2026-04-14T08:31:23Z] [iter=1] Target type resolved target_type=extends_clause resolved=172 errors=1 secs=4 mem_mb=863 MB
+[2026-04-14T08:31:35Z] [iter=1] Step 5: Writing final enrichment file triples=128173
+[2026-04-14T08:31:37Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/973d059449a66799f468b46f4b12c95e32cff5e9.nq.gz size_kb=2570
+[2026-04-14T08:31:37Z] [iter=1] PHASE END: enrich elapsed_s=9038 elapsed_min=150.6 total_triples=128173
